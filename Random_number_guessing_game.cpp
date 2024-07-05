@@ -1,19 +1,20 @@
 #include<iostream>
 #include<cstdlib>
-using namespace std
+
 int main()
 {
     int guess,number;
-    number=rand()%250;
+    number=(rand()%250)+1;
     do
     {
-        cout << "Guess the number: ";
-        cin >> guess;
+        std::cout << "Guess the number (1-250): ";
+        std::cin >> guess;
         if(guess > number)
-            cout << "Guess a lower number" << '\n';
+            std::cout << "Guess a lower number" << "\n";
         else if(guess < number) 
-            cout << "Guess a higher number" << '\n';
+            std::cout << "Guess a higher number" << "\n";
         else
-            cout << "You guessed the right number" << '\n';       
-    }while(guess!=number);
+            std::cout << "You guessed the right number" << "\n";            
+    }while(guess != number);
+    return 0;
 }
