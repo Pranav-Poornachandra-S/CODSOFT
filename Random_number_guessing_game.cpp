@@ -1,9 +1,11 @@
 #include<iostream>
 #include<cstdlib>
+#include<ctime>
 
 int main()
 {
     int guess,number;
+    srand((unsigned int) time(NULL));
     number=(rand()%250)+1;
     do
     {
@@ -14,7 +16,7 @@ int main()
         else if(guess < number) 
             std::cout << "Guess a higher number" << "\n";
         else
-            std::cout << "You guessed the right number" << "\n";            
+            std::cout << "You guessed the right number" << "\n";       
     }while(guess != number);
     return 0;
 }
