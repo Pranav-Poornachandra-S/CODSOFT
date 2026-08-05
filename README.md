@@ -36,8 +36,6 @@ An interactive 2-player terminal board game with state tracking and automatic wi
 
 ## Proof of Work
 
-Demonstration videos verifying functional output for each task:
-
 | **Task 1** | <video src="https://github.com/user-attachments/assets/26ab5f84-c595-4cf7-82fa-aaa04f22fa15" controls="controls" muted="muted" style="max-height:640px; width:100%;">
 </video>
 | **Task 2** | <video src="https://github.com/user-attachments/assets/bb2f03cf-2d58-4a2b-8935-9ed0278b4891" controls="controls" muted="muted" style="max-height:640px; width:100%;">
