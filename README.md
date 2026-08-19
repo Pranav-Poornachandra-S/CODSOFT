@@ -2,7 +2,6 @@
 
 [![C++](https://img.shields.io/badge/Language-C%2B%2B11-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![Compiler](https://img.shields.io/badge/Compiler-GCC%20%2F%20Clang%20%2F%20MSVC-00599C?style=for-the-badge)](https://gcc.gnu.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 A collection of foundational C++ console applications developed during my internship, demonstrating core programming concepts including recursion, array manipulation, control flow logic and interactive terminal games.
 
